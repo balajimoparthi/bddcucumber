@@ -14,10 +14,10 @@ public class HomePage {
 	
 	WaitHelper waitHelper;
 	
-	@FindBy(xpath="//*[@id='ctl00_AdminHeaderControl_Home']")
-	public WebElement maphome;
+	@FindBy(xpath="")
+	public WebElement home;
 	
-	//public static By maphome = By.id("ctl00_AdminHeaderControl_lnkMapHome");
+	
 	
 	public HomePage(WebDriver driver) {
 		this.driver = driver;
