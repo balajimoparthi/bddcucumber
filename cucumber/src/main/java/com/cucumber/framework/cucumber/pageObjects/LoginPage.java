@@ -11,16 +11,16 @@ public class LoginPage {
 
 	private WebDriver driver;
 	
-	@FindBy(xpath="//input[@id='ctl00_MainContent_LoginUser_txtUserName']")
+	@FindBy(xpath="//input[@id='']")
 	public WebElement userName;
 	
-	@FindBy(xpath="//input[@id='ctl00_MainContent_LoginUser_txtPassword']")
+	@FindBy(xpath="//input[@id='']")
 	public WebElement passWord;
 	
-	@FindBy(xpath="//input[@id='ctl00_MainContent_LoginUser_btnLogIn']")
+	@FindBy(xpath="//input[@id='']")
 	public WebElement loginButton;
 	
-	@FindBy(xpath="//input[@id='ctl00_MainContent_LoginUser_btnContinue']")
+	@FindBy(xpath="//input[@id='']")
 	public WebElement cntbutton;
 	
 	WaitHelper waitHelper;
